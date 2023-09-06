@@ -55,7 +55,7 @@ const Work = () => {
                                 </button>
                             </a>
 
-                            <a href="/">
+                            <a href="https://github.com/Sholafunmi/spillafrica" target='_blank'>
                                 <button className='text-center rounded-lg px-4 py-4 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     View Code
                                 </button>
@@ -77,7 +77,7 @@ const Work = () => {
                                 </button>
                             </a>
 
-                            <a href="/">
+                            <a href="https://github.com/Sholafunmi/Tomide_Olukuade" target='_blank'>
                                 <button className='text-center rounded-lg px-4 py-4 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     View Code
                                 </button>
@@ -100,7 +100,7 @@ const Work = () => {
                                 </button>
                             </a>
 
-                            <a href="/">
+                            <a href="https://github.com/Sholafunmi/temitope_fash" target='_blank'>
                                 <button className='text-center rounded-lg px-4 py-4 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     View Code
                                 </button>
@@ -114,16 +114,16 @@ const Work = () => {
                     {/* ADD Hover effect  */}
                     <div className='opacity-0 group-hover:opacity-100 text-center'>
                         <span className=' text-2xl font-bold text-white tracking-wider '>
-                            HTML/ CSS/ JAVASCRIPT
+                            HTML/ CSS
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="https://loopstudiosbysholafunmi.netlify.app/">
+                            <a target='_blank' href="https://loopstudiosbysholafunmi.netlify.app/">
                                 <button className='text-center rounded-lg px-4 py-4 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     View Project
                                 </button>
                             </a>
 
-                            <a href="/">
+                            <a target='_blank' href="https://github.com/Sholafunmi/loopstudios">
                                 <button className='text-center rounded-lg px-4 py-4 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     View Code
                                 </button>
@@ -141,13 +141,13 @@ const Work = () => {
                             HTML/ CSS
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="https://huddle-landing-page-sholafunmi.vercel.app/">
+                            <a target='_blank' href="https://huddle-landing-page-sholafunmi.vercel.app/">
                                 <button className='text-center rounded-lg px-4 py-4 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     View Project
                                 </button>
                             </a>
 
-                            <a href="/">
+                            <a _blank href="https://github.com/Sholafunmi/Huddle-landing-page">
                                 <button className='text-center rounded-lg px-4 py-4 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     View Code
                                 </button>
