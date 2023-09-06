@@ -2,7 +2,7 @@ import React from 'react'
 import html from '../assets/HTML.png'
 import css from '../assets/css.png'
 import javascript from '../assets/js2.png'
-import react from '../assets/react2.png'
+import reactt from '../assets/react2.png'
 import tailwind from '../assets/tailwind.png'
 import git from '../assets/git.png'
 
@@ -19,7 +19,7 @@ const Skills = () => {
 
         <div className='w-full grid grid-cols-2 sm:grid-cols-3 text-center py-8  items-center justify-center '>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 w-[150px] md:w-[240px] h-[150px] flex flex-col justify-center items-center mt-7' >
-                <img className='w-[150px] mx-auto' src={react} alt="react icon"  />
+                <img className='w-[150px] mx-auto' src={reactt} alt="react icon"  />
                 <p className=' py-4'>REACT JS</p>
             </div>
 
