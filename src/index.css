@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400&display=swap');
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Mono', monospace; */
+
+@layer base {
+  body {
+    @apply font-[Raleway];
+  }
+  li {
+    @apply px-4;
+    /* @apply cursor-pointer */
+  }
+}
+.nav{
+  z-index: 1;
+}
+.content-div{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 250px;
+}
+.content-div:hover {
+  /* background-image: linear-gradient(
+    to right, rgba(112, 157, 255, 0.8),hsla(242, 74%, 61%, 0.8))
+ !important; */
+
+ background-image: linear-gradient(
+    to right, rgba(163, 166, 172, 0.8),hsla(240, 5%, 60%, 0.8))
+ !important;
+}
+
+.heroImg{
+  /* width: 300px;
+  height: 250px; */
+  background-image: url(./assets/heroImagee.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.heroImgMobile{
+  /* width: 300px;
+  height: 250px; */
+  background-image: url(./assets/heroImagee.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scaleX(-1);
+}
