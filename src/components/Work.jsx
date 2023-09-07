@@ -88,7 +88,7 @@ const Work = () => {
 
                 {/* PROJECT 3  */}
                 <div style={{ backgroundImage: `url(${fash})` }} className=' shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
-                    {/* ADD Hover effect  */}
+                    {/*  */}
                     <div className='opacity-0 group-hover:opacity-100 text-center'>
                         <span className=' text-2xl font-bold text-white tracking-wider '>
                             HTML / CSS / JAVASCRIPT
