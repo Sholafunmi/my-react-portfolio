@@ -1,10 +1,10 @@
 import React from 'react'
 import htmlImg from '../assets/htmlimg.png'
 import cssImg from '../assets/cssimg.png'
-import javascript from '../assets/js2.png'
-import react from '../assets/react.png'
-import tailwind from '../assets/tailwind.png'
-import git from '../assets/git.png'
+import javascriptImg from '../assets/jsimg.png'
+import reactImg from '../assets/reactimg.png'
+import tailwindImg from '../assets/tailwindimg.png'
+import gitImg from '../assets/gitimg.png'
 
 
 const Skills = () => {
@@ -19,12 +19,12 @@ const Skills = () => {
 
         <div className='w-full grid grid-cols-2 sm:grid-cols-3 text-center py-8  items-center justify-center '>
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 w-[150px] md:w-[240px] h-[150px] flex flex-col justify-center items-center mt-7' >
-                <img className='w-[150px] mx-auto' src={react} alt="react icon"  />
+                <img className='w-[150px] mx-auto' src={reactImg} alt="react icon"  />
                 <p className=' py-4'>REACT JS</p>
             </div>
 
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 w-[150px] md:w-[240px] h-[150px] flex flex-col justify-center items-center mt-7' >
-                <img className='w-[250px] mx-auto' src={javascript} alt="js icon"  />
+                <img className='w-[250px] mx-auto' src={javascriptImg} alt="js icon"  />
                 <p className=' py-4'>JAVASCRIPT</p>
             </div>
 
@@ -39,12 +39,12 @@ const Skills = () => {
             </div>
 
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 w-[150px] md:w-[240px] h-[150px] flex flex-col justify-center items-center mt-7' >
-                <img className='w-[110px] mx-auto' src={git} alt="git icon"  />
+                <img className='w-[110px] mx-auto' src={gitImg} alt="git icon"  />
                 <p className=' py-4'>GITHUB</p>
             </div>
 
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 w-[150px] md:w-[240px] h-[150px] flex flex-col justify-center items-center mt-7' >
-                <img className='w-[220px] mx-auto' src={tailwind} alt="css icon"  />
+                <img className='w-[220px] mx-auto' src={tailwindImg} alt="css icon"  />
                 <p className=' py-4'>TAILWIND CSS</p>
             </div>
 
