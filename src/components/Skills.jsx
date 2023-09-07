@@ -1,5 +1,5 @@
 import React from 'react'
-import html from '../assets/html.png'
+import htmlImg from '../assets/html.png'
 import css from '../assets/css.png'
 import javascript from '../assets/js2.png'
 import react from '../assets/react.png'
@@ -29,7 +29,7 @@ const Skills = () => {
             </div>
 
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500  w-[150px] md:w-[240px] h-[150px] flex flex-col justify-center items-center mt-7' >
-                <img className='w-[85px] mx-auto' src={html} alt="HTML icon"  />
+                <img className='w-[85px] mx-auto' src={htmlImg} alt="HTML icon"  />
                 <p className=' py-4'>HTML</p>
             </div>
 
@@ -39,13 +39,13 @@ const Skills = () => {
             </div>
 
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 w-[150px] md:w-[240px] h-[150px] flex flex-col justify-center items-center mt-7' >
-                <img className='w-[110px] mx-auto' src={git} alt="css icon"  />
-                <p className=' py-4'>GIT</p>
+                <img className='w-[110px] mx-auto' src={git} alt="git icon"  />
+                <p className=' py-4'>GITHUB</p>
             </div>
 
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 w-[150px] md:w-[240px] h-[150px] flex flex-col justify-center items-center mt-7' >
                 <img className='w-[220px] mx-auto' src={tailwind} alt="css icon"  />
-                <p className=' py-4'>Tailwind CSS</p>
+                <p className=' py-4'>TAILWIND CSS</p>
             </div>
 
             {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 w-[240px] h-[150px] flex flex-col justify-center items-center ' >
