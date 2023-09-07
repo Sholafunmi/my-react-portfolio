@@ -1,6 +1,6 @@
 import React from 'react'
 import spill from '../assets/spillAfrica.png'
-import tomide from '../assets/Tomide-desktop.png'
+import tomide from '../assets/tomide-desktop.png'
 import fash from '../assets/fashDesktopView2.png'
 import loopstudio from '../assets/loopstudios.jpg'
 import huddle from '../assets/huddle.jpg'

@@ -20,7 +20,7 @@ const Bio = () => {
 
             </div>
 
-                <div className='max-w-[1000px] w-full h-fit grid sm:grid-cols-2 justify-center items-center gap-8 px-4'>
+                <div className='max-w-[1000px] w-full h-fit grid sm:grid-cols-2 justify-center gap-8 px-4'>
                     <div className='sm:text-right md:text-4xl font-bold mt-2'>
                         <p>I'm a passionate software developer with abilities to turn ideas into elegant, functional solutions.
                         With over a year in the tech industry, I thrive on creating seamless user experiences and tackling complex challenges head-on.</p>
