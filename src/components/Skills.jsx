@@ -1,6 +1,6 @@
 import React from 'react'
-import htmlImg from '../assets/html.png'
-import css from '../assets/css.png'
+import htmlImg from '../assets/htmlimg.png'
+import cssImg from '../assets/cssimg.png'
 import javascript from '../assets/js2.png'
 import react from '../assets/react.png'
 import tailwind from '../assets/tailwind.png'
@@ -34,7 +34,7 @@ const Skills = () => {
             </div>
 
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 w-[150px] md:w-[240px] h-[150px] flex flex-col justify-center items-center mt-7' >
-                <img className='w-[220px] mx-auto' src={css} alt="css icon"  />
+                <img className='w-[220px] mx-auto' src={cssImg} alt="css icon"  />
                 <p className=' py-4'>CSS</p>
             </div>
 
