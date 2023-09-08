@@ -1,7 +1,7 @@
 import React from 'react'
 import spill from '../assets/spillAfrica.png'
-import tomide from '../assets/tomide-desktop.png'
-import fash from '../assets/fashDesktopView2.png'
+import tomideImg from '../assets/tomide.png'
+import fashImg from '../assets/fash.png'
 import loopstudio from '../assets/loopstudios.jpg'
 import huddle from '../assets/huddle.jpg'
 import vscte from '../assets/vscte.png'
@@ -64,7 +64,7 @@ const Work = () => {
                     </div>
                 </div>
                 {/* PROJECT 2  */}
-                <div style={{ backgroundImage: `url(${tomide})` }} className=' shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
+                <div style={{ backgroundImage: `url(${tomideImg})` }} className=' shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
                     {/* ADD Hover effect  */}
                     <div className='opacity-0 group-hover:opacity-100 text-center'>
                         <span className=' text-2xl font-bold text-white tracking-wider '>
@@ -87,7 +87,7 @@ const Work = () => {
                 </div>
 
                 {/* PROJECT 3  */}
-                <div style={{ backgroundImage: `url(${fash})` }} className=' shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
+                <div style={{ backgroundImage: `url(${fashImg})` }} className=' shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
                     {/*  */}
                     <div className='opacity-0 group-hover:opacity-100 text-center'>
                         <span className=' text-2xl font-bold text-white tracking-wider '>
