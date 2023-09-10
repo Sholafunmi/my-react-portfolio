@@ -23,16 +23,16 @@ const Work = () => {
                     {/* ADD Hover effect  */}
                     <div className='opacity-0 group-hover:opacity-100 text-center'>
                         <span className=' text-2xl font-bold text-white tracking-wider '>
-                            HTML/ CSS/ JAVASCRIPT
+                            React JS |Tailwind
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="/">
+                            <a href="https://vscte.vercel.app/">
                                 <button className='text-center rounded-lg px-4 py-4 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     View Project
                                 </button>
                             </a>
 
-                            <a href="/">
+                            <a href="https://github.com/Sholafunmi/vscte">
                                 <button className='text-center rounded-lg px-4 py-4 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     View Code
                                 </button>
