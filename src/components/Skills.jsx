@@ -25,7 +25,7 @@ const Skills = () => {
 
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 w-[150px] md:w-[240px] h-[150px] flex flex-col justify-center items-center mt-7' >
                 <img className='w-[250px] mx-auto' src={javascriptImg} alt="js icon"  />
-                <p className=' py-4'>JAVASCRIPT</p>
+                <p className='pt-8 sm:pt-0 sm:py-4'>JAVASCRIPT</p>
             </div>
 
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500  w-[150px] md:w-[240px] h-[150px] flex flex-col justify-center items-center mt-7' >
@@ -34,18 +34,18 @@ const Skills = () => {
             </div>
 
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 w-[150px] md:w-[240px] h-[150px] flex flex-col justify-center items-center mt-7' >
-                <img className='w-[80px] mx-auto' src={cssImg} alt="css icon"  />
-                <p className=' py-4'>CSS</p>
+                <img className='w-[75px] mx-auto' src={cssImg} alt="css icon"  />
+                <p className='py-8 '>CSS</p>
             </div>
 
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 w-[150px] md:w-[240px] h-[150px] flex flex-col justify-center items-center mt-7' >
-                <img className='w-[110px] mx-auto' src={gitImg} alt="git icon"  />
+                <img className='w-[100px] mx-auto' src={gitImg} alt="git icon"  />
                 <p className=' py-4'>GITHUB</p>
             </div>
 
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 w-[150px] md:w-[240px] h-[150px] flex flex-col justify-center items-center mt-7' >
-                <img className='w-[220px] mx-auto' src={tailwindImg} alt="css icon"  />
-                <p className=' py-4'>TAILWIND CSS</p>
+                <img className='w-[260px] mx-auto' src={tailwindImg} alt="css icon"  />
+                <p className=' pt-10 sm:py-4'>TAILWIND CSS</p>
             </div>
 
             {/* <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 w-[240px] h-[150px] flex flex-col justify-center items-center ' >
