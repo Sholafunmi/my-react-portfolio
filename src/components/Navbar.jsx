@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center p-4 md:px-20 bg-[#08192f] text-gray-300 nav '>
         {/* <img src={Logo} alt="logo" style={{width: '50px'}} /> */}
-        <a href=""className='text-2xl' >Sholafunmi Adewara</a>
+        <a href=""className='sm:text-2xl' >Sholafunmi Adewara</a>
 
         {/* MENU  */}
             <ul className='hidden lg:flex'>          
