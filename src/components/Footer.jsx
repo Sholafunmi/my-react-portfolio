@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaLinkedin, FaGithub} from 'react-icons/fa'
 import { HiOutlineMail} from 'react-icons/hi'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
+// import { BsFillPersonLinesFill } from 'react-icons/bs'
 
 const Footer = () => {
   return (
@@ -16,7 +16,7 @@ const Footer = () => {
                   <a className=' text-gray-300' target='_blank' href="https://www.linkedin.com/in/sholafunmi-adewara-22820613b"> <FaLinkedin size={30} /> </a>
                   <a className=' text-gray-300' target='_blank' href="https://github.com/Sholafunmi"> <FaGithub size={30} /> </a>
                   <a className=' text-gray-300' target='_blank' href="mailto:sholafunmiadewara@gmail.com"> <HiOutlineMail size={30} /> </a>                    
-                  <a className=' text-gray-300' href=""> <BsFillPersonLinesFill size={30} /> </a>
+                  {/* <a className=' text-gray-300' href=""> <BsFillPersonLinesFill size={30} /> </a> */}
              
               </ul>
 

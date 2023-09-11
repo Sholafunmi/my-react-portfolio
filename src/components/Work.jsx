@@ -26,13 +26,13 @@ const Work = () => {
                             React JS |Tailwind
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="https://vscte.vercel.app/">
+                            <a target='_blank' href="https://vscte.vercel.app/">
                                 <button className='text-center rounded-lg px-4 py-4 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     View Project
                                 </button>
                             </a>
 
-                            <a href="https://github.com/Sholafunmi/vscte">
+                            <a target='_blank' href="https://github.com/Sholafunmi/vscte">
                                 <button className='text-center rounded-lg px-4 py-4 m-2 bg-white text-gray-700 font-bold text-lg'>
                                     View Code
                                 </button>

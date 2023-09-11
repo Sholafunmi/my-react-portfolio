@@ -29,12 +29,12 @@ const Skills = () => {
             </div>
 
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500  w-[150px] md:w-[240px] h-[150px] flex flex-col justify-center items-center mt-7' >
-                <img className='w-[85px] mx-auto' src={htmlImg} alt="HTML icon"  />
+                <img className='w-[80px] mx-auto' src={htmlImg} alt="HTML icon"  />
                 <p className=' py-4'>HTML</p>
             </div>
 
             <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 w-[150px] md:w-[240px] h-[150px] flex flex-col justify-center items-center mt-7' >
-                <img className='w-[220px] mx-auto' src={cssImg} alt="css icon"  />
+                <img className='w-[500px] md:w-[220px] mx-auto' src={cssImg} alt="css icon"  />
                 <p className=' py-4'>CSS</p>
             </div>
 
