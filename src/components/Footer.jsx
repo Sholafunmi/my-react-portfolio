@@ -6,9 +6,9 @@ import { HiOutlineMail} from 'react-icons/hi'
 const Footer = () => {
   return (
     <div className='w-full h-fit bg-[#02060d]  md:flex items-center justify-center md:justify-between md:px-40 gap-4 pt-10 pb-10'>
-        <div className='text-gray-200 flex flex-col text-center md:text-left '>
+        <div className='text-gray-200 flex flex-col text-center md:text-left '> 
             <p>Sholafunmi Adewara</p>
-            <p>@2023 CopyRight Reserved</p>
+            <p>@2023 All Right Reserved</p>
         </div>
     
        

@@ -1,9 +1,15 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 
 const Bio = () => {
+    useEffect(()=>{
+        AOS.init({duration: 1000})
+    }, []);
   return (
-    // give the div a name to be used for scrool eg; name='about' 
-    <div name='bio' className='w-full h-fit py-10 bg-[#0a192f]  text-gray-300'>
+  
+    <div name='bio' className='w-full h-fit py-10 bg-[#0a192f]  text-gray-300' >
         <div className='flex flex-col justify-center items-center w-full h-full'>
             {/* we create a container div  */}
             <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8 '>
@@ -21,11 +27,11 @@ const Bio = () => {
             </div>
 
                 <div className='max-w-[1000px] w-full h-fit grid sm:grid-cols-2 justify-center gap-8 px-4'>
-                    <div className='sm:text-right md:text-4xl font-bold mt-2'>
+                    <div className='sm:text-right md:text-4xl font-bold mt-2' data-aos="fade-right">
                         <p>I'm a passionate software developer with abilities to turn ideas into elegant, functional solutions.
                         With over a year in the tech industry, I thrive on creating seamless user experiences and tackling complex challenges head-on.</p>
                     </div> 
-                    <div className='flex flex-col gap-4 text-[18px]'>
+                    <div className='flex flex-col gap-4 text-[18px]' data-aos="fade-left">
                         <p> <span className='font-bold'>Tech Stack: </span><br />React, Javascript, Html, CSS[Bootstrap, Tailwind], Git.</p>
 
                         <p><span className='font-bold'>Work Experience:</span> <br />

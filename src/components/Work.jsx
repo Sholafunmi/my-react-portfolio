@@ -1,25 +1,33 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import spill from '../assets/spillAfrica.png'
 import tomideImg from '../assets/tomide.png'
 import fashImg from '../assets/fash.png'
 import loopstudio from '../assets/loopstudios.jpg'
 import huddle from '../assets/huddle.jpg'
 import vscte from '../assets/vscte.png'
+
+
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 const Work = () => {
+    useEffect(()=>{
+        AOS.init({duration: 1000})
+    }, []);
   return (
     <div name='work' className='w-full h-fit py-5 text-gray-300 bg-[#0a192f]  pb-10 ' >
     {/* work content  */}
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full '>
+        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full ' >
             <div className='pb-8' >
                 <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-gray-300 ' >Work </p>
                 <p className='py-6'>Check out some of my recent work</p>
             </div>
             {/* CARD  */}
-            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4' data-aos="fade-up">
             {/* CARD CONTENT,  grid content  */}
 
                  {/* PROJECT 6  */}
-                 <div style={{ backgroundImage: `url(${vscte})` }} className=' shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div '>
+                 <div style={{ backgroundImage: `url(${vscte})` }} className=' shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* ADD Hover effect  */}
                     <div className='opacity-0 group-hover:opacity-100 text-center'>
                         <span className=' text-2xl font-bold text-white tracking-wider '>
