@@ -13,7 +13,7 @@ const Hero = () => {
     <div name='hero' className='w-full sm:mw-fit h-screen sm:h-fit sm:py-10   lg:h-screen bg-[#0a192f] flex justify-center items-center'>
 
     {/* container  */}
-        <div className='max-w-[1000px]  px-8 mt-32 flex flex-col justify-center h-full ' data-aos="fade-up">
+        <div className='max-w-[1000px]  px-8 mt-32 flex flex-col justify-center h-full ' data-aos="fade-zoom-in" data-aos-easing="ease-in-sine">
             <p className='text-[#8892b0]  '>Hi, Nice to meet you!</p>
             <p className='text-3xl sm:text-7xl font-bold text-[#ccd6f6]'>My name is <br /> Sholafunmi Adewara</p>
             <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>I'm a software engineer</h2>
